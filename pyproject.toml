@@ -1,0 +1,16 @@
+[project]
+name = "acr1552u"
+version = "0.1.0"
+description = "Python library for ACS ACR1552U NFC reader via libusb1 CCID escape commands"
+readme = "README.md"
+authors = [
+    { name = "Evan McClain", email = "emcclain@mitre.org" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "libusb1>=3.0.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.1,<0.12.0"]
+build-backend = "uv_build"
